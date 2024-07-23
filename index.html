@@ -9,32 +9,35 @@
 <body>
 
     <div class="signup-container">
-        <div class="side-picture">
-            <img src="assets/newyork-unsplash-s.jpg" alt="random sign up side image">
+        <div class="side-picture-container">
+            <img src="assets/pic_s.jpg" alt="random sign up side image">
         </div>
         <div class="signup-form">
             <form action="" method="post">
-                <h1>Get Started Now.</h1>
+                <div class="inputs-container">
+                    <h1>Get Started Now.</h1>
 
-                <div class="names-container">
-                    <div><label for=""></label><input type="text"></div>
-                    <div><label for=""></label><input type="text"></div>
+                    <div class="names-container">
+                        <div><label for="f-name">First name</label><input type="text" id="f-name" placeholder="First Name"></div>
+                        <div><label for="l-name">Last name</label><input type="text" id="l-name" placeholder="Last Name"></div>
+                    </div>
+                    <div>
+                        <label for="e-mail">Email Address</label>
+                        <input type="email" name="" id="e-mail" placeholder="name@address.com">
+                    </div>
+                    <div>
+                        <label for="password">Password</label>
+                        <input type="password" name="" id="password" placeholder="Enter Password">
+                    </div>
+                    <div>
+                        <label for="re-password">Confirm your password</label>
+                        <input type="password" name="" id="re-password" placeholder="Re-enter your Password">
+                    </div>
+                    <button>Sign Up</button>
+                    <div class="bottom-login">
+                        <span>Already have an account?</span> <a href="#">Log In</a>
+                    </div>
                 </div>
-                <div>
-                    <label for=""></label>
-                    <input type="email" name="" id="">
-
-                </div>
-                <div>
-                    <label for=""></label>
-                    <input type="password" name="" id="">
-                </div>
-                <div>
-                    <label for=""></label>
-                    <input type="password" name="" id="">
-                </div>
-                <button></button>
-                <div></div>
             </form>
         </div>
     </div>
